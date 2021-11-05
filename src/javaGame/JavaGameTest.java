@@ -572,11 +572,9 @@ public class JavaGameTest {
         //Act
         String addedSentence = "stop";
 
-
         Boolean actual = stopGame.findStop(addedSentence);
 
         //Assert
-
         assertEquals(true, actual);
     }
 
@@ -589,11 +587,9 @@ public class JavaGameTest {
         //Act
         String addedSentence = "Hello";
 
-
         Boolean actual = stopGame.findStop(addedSentence);
 
         //Assert
-
         assertEquals(false, actual);
     }
 
@@ -606,11 +602,9 @@ public class JavaGameTest {
         //Act
         String addedSentence = "Hello stop";
 
-
         Boolean actual = sentence.findStop(addedSentence);
 
         //Assert
-
         assertEquals(true, actual);
     }
 

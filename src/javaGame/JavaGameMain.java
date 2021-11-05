@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class JavaGameMain {
 
-
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -34,7 +33,6 @@ public class JavaGameMain {
                 stopGame.findStop(addedSentence);
             }
         }
-
         System.out.println("In total, you added:" + "\r\n" + "Number of rows: " + myJavaGame.getRows() + "\r\n" + "Number of characters: " + myJavaGame.getCharacters() + "\r\n" + "Number of words: " + myJavaGame.getWords() + "\r\n" + "The longest word you added was: " + myJavaGame.getLongestWord());
     }
 

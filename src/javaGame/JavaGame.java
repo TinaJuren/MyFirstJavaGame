@@ -27,6 +27,7 @@ public class JavaGame {
     public int getCharacters() {
         return characters;
     }
+
     public void addCharacters(String addedSentence) {
 
         if(addedSentence.contains("stop")) {
@@ -65,7 +66,6 @@ public class JavaGame {
     public void findLongestWord(String addedSentence) {
 
         String trueStopSentence = addedSentence;
-        //stopSentence = stopSentence.replaceAll("[^A-Za-z0-9]", " ");
 
         if(trueStopSentence.contains("stop")) {
             int i = trueStopSentence.indexOf("stop");
