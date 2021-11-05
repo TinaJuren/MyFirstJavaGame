@@ -8,7 +8,7 @@ public class Player {
         stopGame = false;
     }
 
-    public Boolean findStop(String addedSentence) {
+    public boolean findStop(String addedSentence) {
         if(!addedSentence.contains("stop")) {
             stopGame = false;
         }

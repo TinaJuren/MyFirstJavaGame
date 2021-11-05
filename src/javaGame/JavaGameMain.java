@@ -20,7 +20,7 @@ public class JavaGameMain {
 
         Player stopGame = new Player();
 
-        while(!addedSentence.equals("stop")) {
+        while (!addedSentence.equals("stop")) {
             myJavaGame.addRows(addedSentence);
             myJavaGame.addCharacters(addedSentence);
             myJavaGame.addWords(addedSentence);
@@ -31,7 +31,7 @@ public class JavaGameMain {
                 addedSentence = sc.nextLine();
                 addedSentence = addedSentence.toLowerCase();
             } else {
-                addedSentence = "stop";
+                stopGame.findStop(addedSentence);
             }
         }
 

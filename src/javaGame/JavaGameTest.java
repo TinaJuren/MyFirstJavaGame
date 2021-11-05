@@ -156,7 +156,7 @@ public class JavaGameTest {
         int actual = myJavaGame.getCharacters();
 
         //Assert
-        int expected = 0;
+        int expected = 1;
 
         assertEquals(expected, actual);
     }
@@ -228,7 +228,7 @@ public class JavaGameTest {
         int actual = myJavaGame.getCharacters();
 
         //Assert
-        int expected = 3;
+        int expected = 4;
 
         assertEquals(expected, actual);
     }
@@ -265,7 +265,7 @@ public class JavaGameTest {
         int actual = myJavaGame.getCharacters();
 
         //Assert
-        int expected = 3;
+        int expected = 4;
 
         assertEquals(expected, actual);
     }
@@ -284,7 +284,7 @@ public class JavaGameTest {
         int actual = myJavaGame.getCharacters();
 
         //Assert
-        int expected = 3;
+        int expected = 4;
 
         assertEquals(expected, actual);
     }

@@ -28,7 +28,6 @@ public class JavaGame {
         return characters;
     }
     public void addCharacters(String addedSentence) {
-        addedSentence = addedSentence.replaceAll(" ", "");
 
         if(addedSentence.contains("stop")) {
             int i = addedSentence.indexOf("stop");
